@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .class1:hover{
+        color:aquamarine;
+    }
+    .class1 .class3{
+        color:darkred;
+    }
+
+    .class2{
+        font-style: italic;
+    }
+    .class5,.class7{
+        font-size: large;
+        font-style: oblique;
+        color: green;
+    }
+    .li:nth-of-type(1){
+        color: indigo;
+    }
+    p::first-letter{
+        color:yellow;
+    }
+</style>
+<body>
+    <div class="class1">
+        Here is content
+        <div class="class3">
+            directly under class 1
+        </div>
+        <input type="text">
+    </div>
+
+    <ul class="class2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        </ul>
+    <div>
+        <p>First letter</p>
+    </div>
+    <div class="class5">
+        Class 5 same as class 7
+    </div>
+    <div class="class7">
+        Multiple classes with the same css style
+    </div>
+    
+</body>
+</html>
